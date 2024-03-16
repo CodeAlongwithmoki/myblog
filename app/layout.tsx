@@ -1,6 +1,5 @@
 import Link from "next/link";
 import "../styles/globals.css";
-import { HtmlContext } from "next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints";
 
 export const metadata = {
   title: "Moki",
@@ -10,7 +9,7 @@ export const metadata = {
 const Header = (
   <header className=" flex flex-col items-center justify-center rounded-lg  h-32 text-center bg-slate-700 my-2 text-white ">
     <Link className="text-5xl font-bold" href="/">
-      Moki's Blog
+      Moki Blog
     </Link>
     <p className="pt-2">Welcome to my AWESOME blog</p>
   </header>
